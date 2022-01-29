@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Moveo-Looper</title>
+</head>
+<body>
+    
+    <div class="sounds">
+        <h1>Moveo-Looper</h1>
+        <div>
+            <div  class="progress"  id="progress"></div>
+            <audio id="audio" src="/ALL TRACK.mp3" muted ></audio>
+           
+            
+          </div>
+        <div class="instruments">
+           
+        <div  class="drums"><h3>Drums</h3><audio controls   src="/DRUMS.mp3"></audio></div>
+        <div class="tambo"><h3>Tambo</h3><audio  controls   src="/_tambourine_shake_higher.mp3"></audio></div>
+        <div class="lead"><h3>Lead</h3><audio  controls src="/LEAD 1.mp3"></audio></div>
+        <div class="vocb"><h3>B-voc</h3><audio controls   src="/B VOC.mp3"></audio></div>
+        <div class="gibberish"><h3>Gibberish</h3><audio  controls  src="/JIBRISH.mp3"></audio></div>
+        <div class="highVoc"><h3>HighVoc</h3><audio  controls   src="/HIGH VOC.mp3"></audio></div>
+        <div class="uhVoc"><h3>D-voc</h3><audio  controls  src="/UUHO VOC.mp3"></audio></div>
+        <div class="heVoc"><h3>E-voc</h3><audio  controls  src="/HE HE VOC.mp3"></audio></div>
+      
+    </div>
+    <h2>Loop</h2>
+    <input  type="checkbox" class="toggle" id="loop">
+    <div class="btns">
+    <button class="play">&#9658 Play tracks</button>
+    <button class="stop">&#10074&#10074 Rewind</button>
+</div>
+
+    </div>
+    <script src="index.js"></script>
+    <script src="https://unpkg.com/tone"></script>
+
+</body>
+</html>
